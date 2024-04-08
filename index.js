@@ -3,7 +3,7 @@ const fs = require('fs')
 
 const inquirer = require('inquirer')
 
-const generateMarkdown = require('./utils/generateMarkdown')
+const generateMarkdown = require('./Develop/utils/generateMarkdown')
 
 
 
@@ -103,7 +103,7 @@ const questions = [
             if(testInput){
                 return true
             }else{
-                console.log('Please provide the steps to install.')
+                console.log('Please provide instruction to test the project.')
                 return false
             }
         }
@@ -111,17 +111,41 @@ const questions = [
     {
         type: 'input',
         message: 'What is your email?(Required)',
-        name: 'email'
+        name: 'email',
+        validate: emailInput =>{
+            if(emailInputInput){
+                return true
+            }else{
+                console.log('Please provide your email.')
+                return false
+            }
+        }
     },
     {
         type: 'input',
         message: 'What is your github username?(Required)',
-        name: 'github'
+        name: 'github',
+        validate: githubInput =>{
+            if(githubInput){
+                return true
+            }else{
+                console.log('Please provide your github username.')
+                return false
+            }
+        }
     },
     {
         type: 'input',
         message: 'Where is this application deployed at?(Required)',
         name: 'deploy',
+        validate: deployInput =>{
+            if(deployInput){
+                return true
+            }else{
+                console.log('Please provide the steps to install.')
+                return false
+            }
+        }
     },
 
 
