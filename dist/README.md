@@ -1,11 +1,11 @@
 
-  # this is a new project
+  # Sam
   ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-  New project
+  Sam project
   
   ## Description 🔎
-  This a project that is new
+  Description
   
   ## Table of Contents 📖
   - [Installation](#installation-⚙️)
@@ -17,25 +17,25 @@
   - [Deployed Application](#deployed-application-🚀)
   
   ## Installation ⚙️
-  1. Do this
+  1.Install like project
   
   ## Usage 🎮
-  There are lot of examples
+  1.Open node.js
   
   ## License 📝
     This application is covered by the MIT license.
   
   ## Tests 🧪
-  Still tryinh
+  None
   
   ## Credits 🧑‍🤝‍🧑
-  1.Sam
+  1.John
   
   ## Questions 🙋
-  If there are any questions, feel free to contact my email at: @gmail.com
+  If there are any questions, feel free to contact my email at: sam@gmail.com
   
-  You can also find me on GitHub at: [Sam123](https://www.github.com/Sam123)
+  You can also find me on GitHub at: [sam123](https://www.github.com/sam123)
   
   ## Deployed Application 🚀
-  This application was deplopyed at [@github.com](@github.com)
+  This application was deplopyed at [sam.github.io](sam.github.io)
  
