@@ -113,7 +113,7 @@ const questions = [
         message: 'What is your email?(Required)',
         name: 'email',
         validate: emailInput =>{
-            if(emailInputInput){
+            if(emailInput){
                 return true
             }else{
                 console.log('Please provide your email.')
@@ -142,7 +142,7 @@ const questions = [
             if(deployInput){
                 return true
             }else{
-                console.log('Please provide the steps to install.')
+                console.log('Please provide where the project is deployed.')
                 return false
             }
         }
@@ -154,7 +154,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     return fs.writeFile(fileName, data, err => {
-        err ? console.log('Error') : console.log('Thank you. Your professional README is created')
+        err ? console.log('Error') : console.log('Thank you. Your professional README is created.')
     })
 }
 
